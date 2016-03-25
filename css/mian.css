@@ -32,3 +32,254 @@
 	display: inline-block;
 	vertical-align:middle;
 }
+.logo{
+	height: 90px;
+	width: 970px;
+	margin: 0 auto;
+}
+.logo_l{
+	width: 200px;
+	height: 65px;
+	background: url('../img/sprite.png') -26px 0;
+	margin:15px 0 10px 20px;
+	/* 搜索引擎优化部分*/
+	text-indent: -1000em;
+}
+.logo_r{
+	width:530px;
+	height:42px;
+	border:1px solid #C9C9C9;
+	margin-top: 30px;
+}
+.logo_r_content{
+	margin:0 auto;
+	padding:5px;
+}
+.logo_r_search{
+	width:418px;
+	height:28px;
+	color:#999999;
+	border:1px solid  #C9C9C9;
+}
+.logo_r_btn{
+	width:100px;
+	height:30px;
+	color:white;
+	background-color: #2F70D0;
+}
+
+.nav{
+	width:970px;
+	height:25px;
+	margin:0 auto;
+	border-bottom: 2px solid #0266A3;
+}
+.nav li{
+	padding:0 15px 0 15px;
+	float:left;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+}
+.nav li a{
+	color:#0266A3;
+}
+.nav li:hover {
+	background-color: #0266A3;
+}
+.nav li:hover a{
+	color:white;
+}
+
+.banner{
+	width:970px;
+	height:210px;
+	margin:0 auto;
+	margin-top: 10px;
+ }
+.subnav{
+	width:200px;
+	height:210px;
+	background-color: red;
+	margin-right: 10px;
+}
+
+.subnav{
+	background-color: #EBF0F6;
+
+}
+.subnav h2{
+	height:30px;
+	color:white;
+	background-color: #0266A3;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.subnav ul li{
+	font-style: 14px;
+	padding-top: 9px;
+	margin-left: 10px;
+}
+.subnav  s{
+	display:inline-block;
+	background: url(../img/sprite.png) -230px 0;
+	height:20px;
+	width:30px;
+	vertical-align:middle;
+}
+.ad{
+	width:520px;
+	height:210px;
+	background-color: yellow;
+}
+.mesage{
+	width:230px;
+	height:210px;
+}
+.mesage_top{
+	height:95px;
+	border:1px solid #DDDDDD;
+	background-color: #F7FAFF;
+	margin-bottom: 20px;
+	font-size: 14px;
+	padding: 6px 0 0 10px;
+}
+.mesage_top s{
+	display:inline-block;
+	background:url(../img/sprite.png) -265px 0;
+	width:55px;
+	height:50px;
+	vertical-align: middle;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+.mesage_top .cheap{
+	padding:10px 0 0 5px;
+	margin-top: 10px;
+}
+.mesage_bottom{
+	height:86px;
+	background-color: #F7F7F7;
+	text-align: center;
+	font-size: 14px;
+}
+.mesage_bottom .find{
+	padding-top: 8px;
+}
+.mesage_bottom .phone{
+	color:#3F9CE0;
+	padding-top: 10px;
+}
+.mesage_bottom .mesage_btn{
+	background:url(../img/sprite.png)-25px -70px;
+	width:80px;
+	height:23px;
+	vertical:middle;
+	margin-top: 5px;
+}
+
+.material{
+	width:950px;
+	height:34px;
+	margin:0 auto;
+	border-top: 2px solid #C3D7E4;
+	margin-top: 10px;
+	background: #ECF1F7;
+	line-height: 34px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.product{
+	width:970px;
+	height:345px;
+	margin:0 auto;
+	margin-top: 15px;
+}
+.product .product_l{
+	width:738px;
+	height:345px;
+	border:1px solid #D8D8D8;
+}
+.product .product_r{
+	width:220px;
+	height:345px;
+	border:1px solid #E0E6F0;
+}
+
+.product .product_content{
+	height: 155px;
+	width: 712px;
+	padding: 17px 0 0 26px;
+}
+.product .line{
+	width:700px;
+	border-top: 1px solid #E0E6F0;
+	margin:0 5px 0 5px;
+}
+.product product_item{
+	width:350px;
+	height:146px;
+	background:yellow;
+}
+.product .product_item_l{
+	width:99px;
+	height:143px;
+}
+.product .product_item_r{
+	width:250px;
+	height:143px;
+}
+.product .product_item_l .img{
+	height: 100px;
+	border: 1px solid #CACACA;
+}
+.product .product_item_l .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	margin: 10px 4px 0 3px;
+}
+.product .product_item_l .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 15px;
+}
+.product .goodWife{
+	font-size: 14px;
+	margin: 10px 5px 0 10px;
+}
+.product .auto{
+	color: #863E01;
+	margin: 13px 0 0 15px;
+}
+.product .money{
+	padding: 23px 0 0 11px;
+}
+.product .money span{
+	color:red;
+}
+.product .money s{
+	text-decoration: line-through;
+}
+.product .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+.product h2{
+	height: 28px;
+	line-height: 28px;
+	padding-left: 15px;
+	border-bottom: 1px solid #E0E6F0;
+}
+.product_r ul {
+	padding-top: 11px;
+}
+.product_r li {
+	line-height: 25px;
+	padding-left: 26px;
+}
